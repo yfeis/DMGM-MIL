@@ -1,6 +1,8 @@
 # DMGM-MIL: Discriminative Memory-Guided Mamba for Tumor Mutational Burden Prediction from Whole-Slide Images 
 
-This repository contains the official PyTorch implementation of **DMGM-MIL: Discriminative Memory-Guided Mamba for Tumor Mutational Burden Prediction from Whole-Slide Images**. ## Prepare Patch Features To preprocess WSIs, we used [CLAM](https://github.com/mahmoodlab/CLAM). UNI model and weight can also be found in [this](https://github.com/mahmoodlab/CLAM).
+This repository contains the official PyTorch implementation of **DMGM-MIL: Discriminative Memory-Guided Mamba for Tumor Mutational Burden Prediction from Whole-Slide Images**. 
+
+## Prepare Patch Features To preprocess WSIs, we used [CLAM](https://github.com/mahmoodlab/CLAM). UNI model and weight can also be found in [this](https://github.com/mahmoodlab/CLAM).
 ```bash
 # WSI Segmentation and Patching
 python create_patches_fp.py --source DATA_DIRECTORY --save_dir RESULTS_DIRECTORY --patch_size 256 --step_size 256 --preset tcga.csv --seg --patch --stitch --patch_level 1

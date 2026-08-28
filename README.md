@@ -14,7 +14,14 @@ export UNI_CKPT_PATH=checkpoints/uni/pytorch_model.bin
 CUDA_VISIBLE_DEVICES=0 python extract_features_fp.py --data_h5_dir DIR_TO_COORDS --data_slide_dir DATA_DIRECTORY csv_path  CSV_FILE_NAME --feat_dir FEATURES_DIRECTORY --model_name uni_v1 --batch_size 512 --slide_ext .svs
 ```
 
-## Installation - Ubuntu 20.04 - Python 3.10 - CUDA 11.8 - NVIDIA GPU (RTX 4090) - PyTorch 2.0.1 You can refer to the following instructions.
+## Installation 
+- Ubuntu 20.04
+- Python 3.10
+- CUDA 11.8
+- NVIDIA GPU (RTX 4090)
+- PyTorch 2.0.1
+
+You can refer to the following instructions.
 ```bash
 # Create the conda environment
 conda create -n dmgmmil python=3.10 -y

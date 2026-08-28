@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## Train
 ```bash
-CUDA_VISIBLE_DEVICES=0 python main.py  --embed_dim 1024 --drop_out 0.25 --early_stopping --lr 1e-4 --k 5 --opt sgd --lr_scheduler cosine --label_frac 1 --split_dir SPLIT_DIR --exp_code SAVE_DIR --weighted_sample --bag_loss ce --inst_loss svm --task task_1_tumor_vs_normal --model_type dmgmmil --log_data --data_root_dir DATA_ROOT_DIR
+CUDA_VISIBLE_DEVICES=0 python main.py --embed_dim 1024 --drop_out 0.25 --early_stopping --lr 1e-4 --k 5 --opt sgd --lr_scheduler cosine --label_frac 1 --split_dir SPLIT_DIR --exp_code SAVE_DIR --weighted_sample --bag_loss ce --inst_loss svm --task task_1_tumor_vs_normal --model_type dmgmmil --log_data --data_root_dir DATA_ROOT_DIR
 ```
 
 ## Eval and Test

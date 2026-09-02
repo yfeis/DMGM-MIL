@@ -1,7 +1,3 @@
-> **📢 Announcement (2026-08-27)**
->
-> The core implementation of DMGM-MIL has been released.
-> The remaining code and pretrained checkpoints will be released after the paper is accepted.
 # DMGM-MIL: Discriminative Memory-Guided Mamba for Tumor Mutational Burden Prediction from Whole-Slide Images 
 
 This repository contains the official PyTorch implementation of **DMGM-MIL: Discriminative Memory-Guided Mamba for Tumor Mutational Burden Prediction from Whole-Slide Images**. 
